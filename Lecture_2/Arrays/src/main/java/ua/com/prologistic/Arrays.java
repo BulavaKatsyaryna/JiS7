@@ -7,11 +7,14 @@ class ArraysHW {
 
         int[] myArrays = {54, 93, 11, 83, 21};
         System.out.println("Массив с рандомными числами: " + Arrays.toString(myArrays));
+        
         Arrays.sort(myArrays, 0, 5);
         System.out.println("Сортировка массива от меньшего к большему: "+ Arrays.toString(myArrays));
+        
         int[] myArraysCopy = Arrays.copyOf(myArrays, myArrays.length);
         ArrayUtils.reverse(myArraysCopy);
         System.out.println("Создана копия метода с реверсом значений: " + Arrays.toString(myArraysCopy));
+        
         int[] combinedIntArray = ArrayUtils.addAll(myArrays, myArraysCopy);
         System.out.println("Объединение двух массивов: " + Arrays.toString(combinedIntArray));
     }
