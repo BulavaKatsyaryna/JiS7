@@ -1,5 +1,5 @@
 import java.util.Random;
-
+//**********@Checked***************//
 public class RandomDemo {
     public RandomDemo() {
 }
