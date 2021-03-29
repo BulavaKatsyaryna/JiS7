@@ -1,5 +1,5 @@
 import java.util.*;
-
+//**********@Checked***************//
 public class HeadsAndTails {
     public static void main( String args[] ) {
 
