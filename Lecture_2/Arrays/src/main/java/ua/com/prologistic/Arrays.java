@@ -1,7 +1,7 @@
 package ua.com.prologistic;
 import org.apache.commons.lang3.ArrayUtils;
 import java.util.Arrays;
-
+//**********@Checked***************//
 class ArraysHW {
     public static void main(String[] args) {
 
