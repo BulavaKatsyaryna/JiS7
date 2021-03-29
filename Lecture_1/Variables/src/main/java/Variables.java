@@ -1,3 +1,4 @@
+//**********@Checked***************//
 public class Variables {
     //Переменные. Примитивные типы данных.
     public static void main (String [] args) {
