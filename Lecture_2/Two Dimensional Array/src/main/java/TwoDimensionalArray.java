@@ -1,8 +1,8 @@
 public class TwoDimensionalArray {
-
+//**********@Checked***************//
     public static void main(String[] args) {
         int[][] array = new int[7][7];
-
+//Заполнение массива впринципе можно через цикл сделать, а то слишком много букав)
         array[0][0] = 1;
         array[0][1] = 1;
         array[0][2] = 1;
