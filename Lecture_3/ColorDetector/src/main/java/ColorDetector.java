@@ -23,8 +23,6 @@ public class ColorDetector {
             } else {
                 System.out.println("Invisible Light");
             }
-
+        sc.close();
         }
-
     }
-
