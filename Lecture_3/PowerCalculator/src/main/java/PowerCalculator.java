@@ -9,7 +9,7 @@ public class PowerCalculator {
         double power = sc.nextDouble();
 
         System.out.println("Ответ: " + (int)Math.pow(base, power));
-
+        sc.close();
     }
 }
 
