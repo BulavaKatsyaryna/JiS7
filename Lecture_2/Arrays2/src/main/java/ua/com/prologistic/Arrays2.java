@@ -1,7 +1,8 @@
 package ua.com.prologistic;
 import org.apache.maven.surefire.shade.org.apache.commons.lang3.ArrayUtils;
 import java.util.Arrays;
-
+//***Checked***
+//Good job!
 
 class ArraysHW2{
 
