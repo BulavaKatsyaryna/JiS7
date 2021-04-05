@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//***********************Checked***********************
 public class PowerCalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -9,7 +9,7 @@ public class PowerCalculator {
         double power = sc.nextDouble();
 
         System.out.println("Ответ: " + (int)Math.pow(base, power));
-        sc.close();
+        sc.close();// Oyyyyy myyyyy))) good joob)
     }
 }
 
