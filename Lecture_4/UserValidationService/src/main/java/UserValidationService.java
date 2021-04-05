@@ -2,8 +2,8 @@
 public class UserValidationService {
 
     public void userValidation(User user){
-        int firstNameLength = Integer.parseInt(user.getFirstName());
-        int lastNameLength = Integer.parseInt(user.getLastName());
+        int firstNameLength = user.getFirstName().length;
+        int lastNameLength = user.getLastName().length;
         int age = user.getAge();
 
 
