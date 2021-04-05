@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//***********************Checked***********************
 public class ColorDetector {
     public static void main(String[] args) {
 
