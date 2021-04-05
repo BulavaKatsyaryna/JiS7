@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//***********************Checked***********************
 public class SignComparator {
     public static void main(String[] args) {
 
