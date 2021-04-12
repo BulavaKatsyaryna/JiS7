@@ -36,14 +36,6 @@ public class TvAndTvController {
         return this.currentChannel;
     }
 
-    public String getTvController() {
-        return tvController;
-    }
-
-    public void setTvController(String tvController) {
-        this.tvController = tvController;
-    }
-
     public boolean setTvController() {
         return false;
     }
