@@ -7,8 +7,6 @@ public class TvAndTvControllerDemo {
         tvAndTvController.currentVolume = 30;
         tvAndTvController.currentChannel = 25;
 
-        tvAndTvController.setTvController = "Controller";
-
         tvAndTvController.tvOn();
         System.out.println("Включен ли телевизор? " + tvAndTvController.tvOn);
 
