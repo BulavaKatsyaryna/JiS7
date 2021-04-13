@@ -15,7 +15,7 @@ public class UserValidationService {
         } else throw new UserValidationExeptitions("Недопустимый возраст");
     }
 
-
+//Предлагаю разделить эту валидацию на два метода. 1. validateFirstAndLastNameLength 2. validateAgePositive что то типо того, названия можешь сама придумать
 }
 
 
