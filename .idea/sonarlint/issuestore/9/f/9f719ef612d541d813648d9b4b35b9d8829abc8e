@@ -1,0 +1,5 @@
+
+E	java:S108")Either remove or fill this block of code.(ϋήθΐ8¬εέ/
+s
+java:S1104	"QMake words a static final constant or non-public and provide accessors if needed.(–²²ϋÿÿÿÿ8Νν²Φ/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(σµεά

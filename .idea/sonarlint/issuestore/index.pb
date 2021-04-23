@@ -5,3 +5,17 @@
 JiS7.iml,b\e\be2ec95c7733ccf6fd9ec5a996bf1890a8007f2c
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+g
+7src/main/java/Lecture_4/UserValidationService/User.java,3\e\3eec7e4f3b9cf0ea5b7a2d968d143d449827cc73
+T
+$src/main/java/Lecture_8/Lecture_8.md,0\8\08529e13dbfe4280fab60b3edf9616f879ea69b0
+ƒ
+Ssrc/main/java/Lecture_2/Arrays2/src/test/java/ua/com/prologistic/ArraysHW2Test.java,b\0\b002739033c7a5612a3895f688a153912b1e21ac
+{
+Ksrc/main/java/Lecture_2/Arrays/src/main/java/ua/com/prologistic/Arrays.java,b\7\b7844db1412f39c8fdecdf02db90e4cbc349f5e6
+}
+Msrc/main/java/Lecture_2/Arrays2/src/main/java/ua/com/prologistic/Arrays2.java,6\5\65b319fb7194e2e433bd560f190202add451ae93
+t
+Dsrc/main/java/Lecture_8/UniqueWordCounter/UniqueWordCounterDemo.java,8\8\88d8a914e91c5ad7c029d0969c007f8f8a4aaef3
+p
+@src/main/java/Lecture_8/UniqueWordCounter/UniqueWordCounter.java,9\f\9f719ef612d541d813648d9b4b35b9d8829abc8e

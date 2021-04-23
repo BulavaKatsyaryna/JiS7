@@ -1,0 +1,14 @@
+
+D
+java:S1144")Remove this unused private "sort" method.(Ÿ—½Üüÿÿÿÿ
+C
+java:S1144"-Remove this unused private "toString" method.(¾Ÿ‘
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿˆ‡µ
+O
+java:S3400"9Remove this method and declare a constant for this value.(”·³›
+A
+java:S1172"&Remove these unused method parameters.(Ÿ—½Üüÿÿÿÿ
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ÿ—½Üüÿÿÿÿ
+E
+java:S1172"/Remove this unused method parameter "myArrays".(¾Ÿ‘
