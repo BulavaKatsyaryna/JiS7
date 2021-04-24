@@ -26,3 +26,4 @@ target/
 *.ipr
 
 /.idea/libraries/
+/src/main/resources/application.properties
