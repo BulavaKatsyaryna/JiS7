@@ -30,6 +30,4 @@ target/
 *.ipr
 *.xml
 
-
-
 /src/main/resources/application.properties
