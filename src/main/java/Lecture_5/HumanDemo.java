@@ -1,4 +1,6 @@
-package Lecture_5
+package Lecture_5;
+
+import Lecture_5_6.Human.Human;
 
 public class HumanDemo {
 
