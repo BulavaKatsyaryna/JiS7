@@ -3,9 +3,9 @@ package Lecture_8.Library.service;
 import Lecture_8.Library.model.Book;
 import Lecture_8.Library.model.Writer;
 
-public interface BookService {
+public interface BookService<Library> {
 
-    Book add(Book book);
+    void BookAdd(Writer writer, String bookName);
 
     Book findBookByAuthorName(String authorName);
 

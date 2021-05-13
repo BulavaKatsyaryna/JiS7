@@ -1,13 +1,13 @@
 package Lecture_8.Library.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class Book {
-    private String authorName;
-    private String bookName;
+
+    private static String authorName;
+    private static String bookName;
+
+    public void bookName(Writer writer, String bookName) {
+        this.bookName = bookName;
+
+    }
+
 }

@@ -7,13 +7,13 @@ import com.google.common.collect.ListMultimap;
 
 public class Library {
 
-    private static ListMultimap<Writer, Book> library = ArrayListMultimap.create();
+    public static ListMultimap<Writer, Book> library = ArrayListMultimap.create();
 
     public static ListMultimap<Writer, Book> getLibrary() {
         return library;
     }
 
-    public static void setLibrary(ListMultimap<Writer, Book> library) {
+    public static void setLibrary(Writer writer, String bookName) {
         Library.library = library;
     }
 }
