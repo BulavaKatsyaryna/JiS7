@@ -1,4 +1,4 @@
-package Lecture_5
+package Lecture_5_6.Human;
 
 public class HumanDemo {
 
