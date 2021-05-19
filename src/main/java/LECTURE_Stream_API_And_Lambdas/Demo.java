@@ -1,4 +1,4 @@
-package LECTURE_Stream_API_And_Lambdas.Task_2;
+package LECTURE_Stream_API_And_Lambdas;
 
 import java.util.ArrayList;
 import java.util.List;
