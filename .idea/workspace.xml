@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf32b488-23e2-4f0a-bd8a-8390c2bfaa0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LECTURE_Stream_API_And_Lambdas/Task3_Product/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LECTURE_Stream_API_And_Lambdas/Task3_Product/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LECTURE_Stream_API_And_Lambdas/Task3_Product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LECTURE_Stream_API_And_Lambdas/Task3_Product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LECTURE_Stream_API_And_Lambdas/Task3_Product/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LECTURE_Stream_API_And_Lambdas/Task3_Product/Demo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,21 +45,9 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="Application.Demo (1)">
-    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LECTURE_Stream_API_And_Lambdas.Task3_Product.Demo" />
-      <module name="JiS7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LECTURE_Stream_API_And_Lambdas.Task3_Product.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LECTURE_Stream_API_And_Lambdas.Task2.Demo" />
       <module name="JiS7" />
@@ -70,6 +57,32 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LECTURE_Stream_API_And_Lambdas.Task3_Product1.Demo" />
+      <module name="JiS7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LECTURE_Stream_API_And_Lambdas.Task3_Product1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,7 +104,11 @@
       <option name="presentableId" value="Default" />
       <updated>1621522570714</updated>
       <workItem from="1621522577088" duration="2645000" />
-      <workItem from="1621595591342" duration="2032000" />
+      <workItem from="1621595591342" duration="3297000" />
+      <workItem from="1621667383042" duration="591000" />
+      <workItem from="1621671058768" duration="24000" />
+      <workItem from="1621802198760" duration="5242000" />
+      <workItem from="1622063111120" duration="334000" />
     </task>
     <servers />
   </component>
