@@ -8,7 +8,6 @@ import java.util.stream.Collectors;
 public class Demo {
     public static void main(String[] args) {
 
-
         List<Product> listProduct = new ArrayList<>();
         Product product = new Product("BubbleGum", 2.50, 2.0);
         Product product2 = new Product("Lays", 3.20, 10.0);
@@ -28,9 +27,6 @@ public class Demo {
         listProduct.add(product7);
         listProduct.add(product8);
 
-
-//TODO Найти самый дешевый продукт с самой большой скидкой
-
         Double maxDiscount = listProduct.stream()
                 .map(it -> it.getDiscount())
                 .max(Comparator.naturalOrder())
@@ -46,6 +42,5 @@ public class Demo {
                 .collect(Collectors.toList());
 
         System.out.println(minPriceInTheCollectionWithTheMaxDiscount);
-
     }
 }
