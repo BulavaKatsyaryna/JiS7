@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface UserService {
 
-    List<User> findUsersWithSpecificSkillPercentage(Collection<User> userList, Integer id, String name);
+    User findUsersWithSpecificSkillPercentage(Collection<User> userList, String nameOfSkill);
 }

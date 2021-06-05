@@ -1,5 +1,6 @@
 package LECTURE_Stream_API_And_Lambdas.Task5_Skills.Model;
 
+import edu.emory.mathcs.backport.java.util.Arrays;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -14,8 +15,11 @@ public class User {
 
     private Integer id;
     private String name;
-    private List<SkillEnum> skills;
+    private List<SkillAndPercentage> skills;
 
-    public User(Integer id, String name, SkillEnum skill) {
+    public User(int id, String name, SkillAndPercentage... skillAndPercentages) {
+        this.id = id;
+        this.name = name;
+        this.skills = Arrays.asList(skillAndPercentages);
     }
 }
