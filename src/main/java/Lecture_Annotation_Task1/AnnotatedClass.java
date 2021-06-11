@@ -1,7 +1,9 @@
 package Lecture_Annotation_Task1;
 
-@Annotation()
+import lombok.Data;
 
+@Data
 public class AnnotatedClass {
-
+    @Annotation
+    private int value;
 }
