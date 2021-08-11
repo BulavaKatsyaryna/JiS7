@@ -1,4 +1,4 @@
-package creditCard;
+package creditCard.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

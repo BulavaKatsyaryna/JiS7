@@ -1,8 +1,8 @@
 package customer.entity;
 
-import address.AddressEntity;
+import address.entity.AddressEntity;
 import basket.BasketEntity;
-import creditCard.CreditCardEntity;
+import creditCard.entity.CreditCardEntity;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

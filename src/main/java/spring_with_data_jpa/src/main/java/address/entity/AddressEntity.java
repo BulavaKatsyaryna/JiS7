@@ -1,4 +1,4 @@
-package address;
+package address.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

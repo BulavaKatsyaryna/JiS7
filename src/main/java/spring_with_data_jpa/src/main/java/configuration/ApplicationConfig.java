@@ -1,9 +1,7 @@
 package configuration;
-
 import org.hibernate.cfg.Environment;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.jpa.JpaTransactionManager;
@@ -12,6 +10,8 @@ import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+import javax.sql.DataSource;
+import java.util.Properties;
 
 import javax.sql.DataSource;
 import java.util.Properties;
@@ -26,7 +26,7 @@ public class ApplicationConfig {
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("org.postgresql.Driver");
-        dataSource.setUrl("jdbc:postgresql://localhost:5432/jis7db");
+        dataSource.setUrl("jdbc:postgresql://localhost:5432/SpringWithDataJPA");
         dataSource.setUsername("postgres");
         dataSource.setPassword("1sony911");
         return dataSource;
@@ -48,7 +48,7 @@ public class ApplicationConfig {
         Properties properties = new Properties();
         properties.put(Environment.SHOW_SQL, "true");
         properties.put(Environment.FORMAT_SQL, "true");
-        properties.put(Environment.DEFAULT_SCHEMA, "jis7db");
+        properties.put(Environment.DEFAULT_SCHEMA, "SpringWithDataJPA");
         properties.put(Environment.HBM2DDL_AUTO, "create");
         properties.put(Environment.DIALECT, "org.hibernate.dialect.PostgreSQLDialect");
 
