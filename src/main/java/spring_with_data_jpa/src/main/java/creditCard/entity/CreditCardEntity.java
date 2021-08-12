@@ -1,5 +1,6 @@
 package creditCard.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -10,19 +11,13 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @Entity
 @Table(name = "credit_cards")
+@AllArgsConstructor
 public class CreditCardEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String cardNumber;
     private String bankName;
     private BigDecimal founds;
-
-    public CreditCardEntity(String cardNumber, String bankName, BigDecimal founds) {
-        this.cardNumber = cardNumber;
-        this.bankName = bankName;
-        this.founds = founds;
-    }
 }

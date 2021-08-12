@@ -1,5 +1,6 @@
 package shop;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import product.ProductEntity;
@@ -12,6 +13,7 @@ import java.util.Collection;
 @NoArgsConstructor
 @Entity
 @Table(name = "shop")
+@AllArgsConstructor
 public class ShopEntity {
 
     @Id
@@ -23,10 +25,4 @@ public class ShopEntity {
     @JoinColumn(name = "shop_id")
     private Collection<ProductEntity> products;
     private BigDecimal cashAmount;
-
-    public ShopEntity(String name, Collection<ProductEntity> products, BigDecimal cashAmount) {
-        this.name = name;
-        this.products = products;
-        this.cashAmount = cashAmount;
-    }
 }

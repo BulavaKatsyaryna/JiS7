@@ -1,5 +1,6 @@
 package product;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -10,6 +11,7 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @Entity
 @Table(name = "products")
+@AllArgsConstructor
 public class ProductEntity {
 
     @Id
@@ -18,9 +20,4 @@ public class ProductEntity {
 
     private String name;
     private BigDecimal price;
-
-    public ProductEntity(String name, BigDecimal price) {
-        this.name = name;
-        this.price = price;
-    }
 }

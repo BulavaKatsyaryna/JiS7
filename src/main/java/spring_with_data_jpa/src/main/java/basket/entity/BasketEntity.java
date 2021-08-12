@@ -1,5 +1,6 @@
-package basket;
+package basket.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import product.ProductEntity;
@@ -11,6 +12,7 @@ import java.util.Collection;
 @NoArgsConstructor
 @Entity
 @Table(name = "baskets")
+@AllArgsConstructor
 public class BasketEntity {
 
     @Id
@@ -20,8 +22,4 @@ public class BasketEntity {
     @OneToMany
     @JoinColumn(name = "basket_id")
     private Collection<ProductEntity> products;
-
-    public BasketEntity(Collection<ProductEntity> products) {
-        this.products = products;
-    }
 }

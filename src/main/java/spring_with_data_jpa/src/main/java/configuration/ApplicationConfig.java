@@ -13,9 +13,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import javax.sql.DataSource;
 import java.util.Properties;
 
-import javax.sql.DataSource;
-import java.util.Properties;
-
 @Configuration
 @EnableTransactionManagement
 @EnableJpaRepositories("java")
@@ -48,7 +45,7 @@ public class ApplicationConfig {
         Properties properties = new Properties();
         properties.put(Environment.SHOW_SQL, "true");
         properties.put(Environment.FORMAT_SQL, "true");
-        properties.put(Environment.DEFAULT_SCHEMA, "SpringWithDataJPA");
+        properties.put(Environment.DEFAULT_SCHEMA, "jis7db");
         properties.put(Environment.HBM2DDL_AUTO, "create");
         properties.put(Environment.DIALECT, "org.hibernate.dialect.PostgreSQLDialect");
 

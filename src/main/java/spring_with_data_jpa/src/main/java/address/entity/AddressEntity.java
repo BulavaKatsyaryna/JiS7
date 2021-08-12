@@ -1,5 +1,6 @@
 package address.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -9,6 +10,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Entity
 @Table(name = "addresses")
+@AllArgsConstructor
 public class AddressEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -20,11 +22,4 @@ public class AddressEntity {
 
     @Column(name = "home_number")
     private String homeNumber;
-
-    public AddressEntity(String country, String city, String street, String homeNumber) {
-        this.country = country;
-        this.city = city;
-        this.street = street;
-        this.homeNumber = homeNumber;
-    }
 }
