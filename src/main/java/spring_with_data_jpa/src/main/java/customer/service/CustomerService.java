@@ -10,4 +10,6 @@ public interface CustomerService {
                           Long basketId, Collection<Long> creditCardIds);
 
     boolean existCustomer(Long id, String userName, Long basketId);
+
+    CustomerEntity findByName(String firstName);
 }

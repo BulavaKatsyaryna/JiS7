@@ -2,6 +2,7 @@ import address.service.AddressService;
 import basket.service.BasketService;
 import creditCard.service.CreditCardService;
 import customer.service.CustomerService;
+import lombok.var;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.math.BigDecimal;
@@ -32,5 +33,8 @@ public class Application {
 
         boolean isExist = customerServiceImpl.existCustomer(1L, "bulava", 1L);
         System.out.println(isExist);
+
+        var katya = customerServiceImpl.findByName("Katya");
+        System.out.println(katya);
     }
 }

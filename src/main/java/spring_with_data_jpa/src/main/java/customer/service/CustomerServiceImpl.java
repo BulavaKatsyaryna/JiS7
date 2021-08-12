@@ -6,6 +6,7 @@ import creditCard.repository.CreditCardRepository;
 import customer.entity.CustomerEntity;
 import customer.repository.CustomerRepository;
 import lombok.extern.slf4j.Slf4j;
+import lombok.var;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -60,7 +61,14 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Override
+    @Transactional(readOnly = true)
     public boolean existCustomer(Long id, String userName, Long basketId) {
         return customerRepository.existsByIdAndUserNameLikeAndAddressIsNotNullAndBasketId(id, userName, basketId );
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public CustomerEntity findByName(String firstName) {
+        return customerRepository.findByFirstName(firstName);
     }
 }
