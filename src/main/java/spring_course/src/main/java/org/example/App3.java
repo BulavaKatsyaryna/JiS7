@@ -8,8 +8,10 @@ public class App3 {
         ClassPathXmlApplicationContext ctx =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        Pet pet = ctx.getBean("myPet", Pet.class);
-        Person person = new Person(pet);
+//        После создания бина Person, не пригодится
+//        Pet pet = ctx.getBean("myPet", Pet.class);
+
+        Person person = ctx.getBean("myPerson", Person.class);
         person.callYourPet();
 
         ctx.close();
