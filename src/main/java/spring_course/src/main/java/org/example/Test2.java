@@ -10,5 +10,6 @@ public class Test2 {
         Pet pet = ctx.getBean("myDog", Pet.class);
         pet.say();
         ctx.close();
+
     }
 }
