@@ -14,6 +14,9 @@ public class App3 {
         Person person = ctx.getBean("myPerson", Person.class);
         person.callYourPet();
 
+        System.out.println(person.getSurname());
+        System.out.println(person.getAge());
+
         ctx.close();
     }
 }
