@@ -8,14 +8,18 @@ public class App4 {
         ClassPathXmlApplicationContext ctx =
                 new ClassPathXmlApplicationContext("applicationContext2.xml");
 
-        Dog myDog = ctx.getBean("myPet", Dog.class);
-        myDog.setName("Zhanna");
 
-        Dog yourDog = ctx.getBean("myPet", Dog.class);
-        yourDog.setName("Molly");
+//      Проверяем работу Singletone и Prototype:
+//        Dog myDog = ctx.getBean("myPet", Dog.class);
+//        myDog.setName("Zhanna");
+//
+//        Dog yourDog = ctx.getBean("myPet", Dog.class);
+//        yourDog.setName("Molly");
 
-        System.out.println(myDog.getName());
-        System.out.println(yourDog.getName());
+//        System.out.println(myDog.getName());
+//        System.out.println(yourDog.getName());
+
+
 
 //      Проверяем ссылаются myDog и yourDog на один и тот же объект:
 //        System.out.println("Переменные ссылаются на один и тот же объект? " +
