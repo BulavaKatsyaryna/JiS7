@@ -1,2 +1,2 @@
 # JiS7
-Homework for Jis7.
+Homework for JavaGuru (Jis7).
