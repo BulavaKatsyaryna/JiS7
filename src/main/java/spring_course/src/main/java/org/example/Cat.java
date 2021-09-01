@@ -4,7 +4,7 @@ import lombok.Data;
 import org.springframework.stereotype.Component;
 
 @Data
-@Component
+@Component("catBean")
 public class Cat implements Pet {
 
     public Cat() {
