@@ -2,28 +2,30 @@ package org.example;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component("personBean")
 @Data
 @AllArgsConstructor
 public class Person {
-    @Autowired
+
+//    @Autowired
+//    @Qualifier("catBean")
     private Pet pet;
     private String surname;
     private int age;
 
-//    @Autowired
-//    public Person(Pet pet) {
-//        System.out.println("Person bean is created");
-//        this.pet = pet;
-//    }
-
-    public Person() {
+    @Autowired
+    public Person(@Qualifier("dog") Pet pet) {
         System.out.println("Person bean is created");
+        this.pet = pet;
     }
+
+//    public Person() {
+//        System.out.println("Person bean is created");
+//    }
 
 //    @Autowired
     public void setPet(Pet pet) {
