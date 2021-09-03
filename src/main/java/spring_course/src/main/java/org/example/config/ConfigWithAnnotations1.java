@@ -13,6 +13,9 @@ public class ConfigWithAnnotations1 {
         Person person = ctx.getBean("personBean", Person.class);
         person.callYourPet();
 
+        System.out.println(person.getSurname());
+        System.out.println(person.getAge());
+
 //        Cat myCat = ctx.getBean("cat", Cat.class);
 //        myCat.say();
 
