@@ -1,7 +1,5 @@
-package org.example.config;
+package org.example;
 
-import org.example.Cat;
-import org.example.Person;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class ConfigWithAnnotations1 {
