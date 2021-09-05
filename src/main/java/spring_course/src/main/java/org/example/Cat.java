@@ -1,10 +1,9 @@
 package org.example;
 
 import lombok.Data;
-import org.springframework.stereotype.Component;
 
 @Data
-@Component("catBean")
+//@Component("catBean")
 public class Cat implements Pet {
 
     public Cat() {

@@ -11,6 +11,10 @@ public class Test6 {
         Person person = ctx.getBean("personBean", Person.class);
         person.callYourPet();
 
+//        Pet cat1 = ctx.getBean("catBean", Pet.class);
+//        Pet cat2 = ctx.getBean("catBean", Pet.class);
+//        cat.say();
+
         ctx.close();
     }
 }
